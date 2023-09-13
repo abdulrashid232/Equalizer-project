@@ -202,7 +202,7 @@ margin-right: 4rem;
 /* =====Media Quiries =====*/
 
 
-/*max- width 767 */
+/*max- width 768 Tablet*/
 
 
 @media only screen and (max-width:768px) {
@@ -307,11 +307,18 @@ margin-right: 4rem;
   }
  
 }
-@media only screen and (max-width:400px){
+/* Max-width = 480 phones */
+@media only screen and (max-width:480px){
+  .text{
+    width:300px;
+    padding: 1rem;
+  }
+  .row{
+    flex-wrap: wrap;
+  }
   .dark_row {
-
     width: 400px;
-    padding-right:calc(10% of width);
+    /* padding-right:calc(10% of width); */
     height: 600px;
     border-radius: 10px;
     display: flex;
