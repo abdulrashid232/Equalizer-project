@@ -32,11 +32,12 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 .text{
   margin:5rem;
   padding-left: 3rem;
-  padding-right: 5rem;
+  padding-right: 12rem;
   width: 700px;
   /* padding: 5rem; */
 }
@@ -58,13 +59,13 @@ body{
 .pattern_img{
   height: 350px;
   margin-top: -11rem;
-  /* padding-left: 5rem; */
+  margin-left: 0.3rem;
 }
 
 /*======= middle Section(download section======= */
 
 .dark_container {
-  background-image: url('./assets/bg-main-desktop.png');
+  /* background-image: url('./assets/bg-main-desktop.png'); */
   background-repeat: no-repeat;
   background-position: top center;
 }
