@@ -305,11 +305,7 @@ margin-right: 4rem;
   align-items: center;
   justify-content: center;
   }
-  .social_icon{
-    margin: 2rem;
-    
-  }
-
+ 
 }
 @media only screen and (max-width:400px){
   .dark_row {
