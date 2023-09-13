@@ -194,6 +194,9 @@ margin-right: 4rem;
 .social_icon{
   margin: 0.2rem;
 }
+.social_icon:hover{
+  background-color: var(--soft-cyan);
+}
 
 
 /* =====Media Quiries =====*/
