@@ -111,11 +111,11 @@ body{
 .premium_Eq h2{
   font-size: 2rem;
 }
-.cost{
+.price{
   display: flex;
   margin-bottom: 1.5rem;
 }
-.cost p{
+.price p{
   margin-left: 0.5rem;
 }
 span{
