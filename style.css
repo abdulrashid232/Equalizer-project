@@ -307,8 +307,8 @@ margin-right: 4rem;
   }
  
 }
-/* Max-width = 480 phones */
-@media only screen and (max-width:480px){
+/* Max-width = 480pixel */
+@media only screen and (max-width: 480px) and (min-width: 320px) {
   .text{
     width:300px;
     padding: 1rem;
