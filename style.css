@@ -65,7 +65,6 @@ body{
 /*======= middle Section(download section======= */
 
 .dark_container {
-  /* background-image: url('./assets/bg-main-desktop.png'); */
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -156,6 +155,9 @@ a{
 .android:hover{
   background-color: var(--soft-cyan);
 }
+
+/* ======footer==== */
+
 footer{
   margin-top: 10rem;
   margin-bottom: 3rem;
@@ -199,20 +201,13 @@ margin-right: 4rem;
 }
 
 
-/* =====Media Quiries =====*/
+/* =====CSS Media Quiries =====*/
 
 
 /*max- width 480 phones*/
 
 
-@media only screen and (max-width: 480px) and (min-width: 320px){
-  /* body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: unset;
-    overflow-x: hidden;
-  } */
+@media only screen and (max-width: 767px) and (min-width: 320px){
   .container{
     background-image: url('./assets/bg-main-desktop.png');
     background-repeat: no-repeat;
@@ -307,24 +302,33 @@ margin-right: 4rem;
   }
  
 }
-/* Max-width = 480pixel */
-/* {
+/* Max-width = 1020pixel Tablets*/
+@media only screen and (max-width: 1020px) and (min-width: 768px) {
+  .container{
+    margin-top: -20px;
+    padding: 0;
+  }
   .text{
     width:300px;
     padding: 1rem;
   }
-  .row{
-    flex-wrap: wrap;
+  .pattern1{
+    margin-left: 3rem;
+    margin-top: -10rem;
   }
+ 
   .dark_row {
-    width: 400px;
-    
+    width: 90%;
     height: 600px;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 18rem 0 0 0;
   }
-} */
+  .phone{
+    position: absolute;
+    left: 10px;
+  }
+  .premium_Eq{
+    position: absolute;
+    right: 20px;
+  }
+}
