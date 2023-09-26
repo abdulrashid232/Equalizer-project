@@ -205,16 +205,16 @@ margin-right: 4rem;
 /*max- width 768 Tablet*/
 
 
-@media only screen and (max-width:768px) {
-  body{
+@media only screen and (max-width: 480px) and (min-width: 320px){
+  /* body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: unset;
-    /* overflow-x: hidden; */
-  }
+    overflow-x: hidden;
+  } */
   .container{
-    background-image: url('./assets/bg-main-mobile.png');
+    background-image: url('./assets/bg-main-desktop.png');
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center top;
@@ -308,7 +308,7 @@ margin-right: 4rem;
  
 }
 /* Max-width = 480pixel */
-@media only screen and (max-width: 480px) and (min-width: 320px) {
+/* {
   .text{
     width:300px;
     padding: 1rem;
@@ -318,7 +318,7 @@ margin-right: 4rem;
   }
   .dark_row {
     width: 400px;
-    /* padding-right:calc(10% of width); */
+    
     height: 600px;
     border-radius: 10px;
     display: flex;
@@ -327,4 +327,4 @@ margin-right: 4rem;
     align-items: center;
     margin: 18rem 0 0 0;
   }
-}
+} */
