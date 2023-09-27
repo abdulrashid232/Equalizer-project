@@ -313,13 +313,14 @@ margin-right: 4rem;
   .container{
     margin-top: -20px;
     padding: 0;
+    width: 100%;
   }
   .text{
     width:300px;
     padding: 1rem;
   }
   .pattern1{
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     margin-top: -10rem;
   }
  
