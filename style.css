@@ -378,6 +378,11 @@ margin-right: 4rem;
   .container{
     width: 100%;
   }
+  .text h1{
+    font-size:45px;
+    letter-spacing: 0;
+    /* width: 100%; */
+  }
   .dark_container{
     width: 100%;
   }
