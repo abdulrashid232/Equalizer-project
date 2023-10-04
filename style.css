@@ -211,19 +211,29 @@ margin-right: 4rem;
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center top;
+    width: 100%;
   }
   .row{
-    width: 300px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
   .text{
-    padding: 1.5rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 3rem 0 0 1rem; */
+    padding: 0;
     margin: 0;
     /* margin-left: 0.3rem; */
     width: 300px;
+  }
+  .logo{
+    position: relative;
+    right: 5rem;
   }
   .text h1{
     font-weight: 800;
