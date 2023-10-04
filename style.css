@@ -59,7 +59,7 @@ body{
 }
 .pattern_img{
   height: 350px;
-  margin-top: -11rem;
+  margin-top: -25rem;
   margin-left: 0.3rem;
 }
 
@@ -341,12 +341,14 @@ margin-right: 4rem;
     width: 100%;
   }
   .text{
-    width:300px;
+    width: 400px;
+    height: 332px;
     padding: 1rem;
+    margin:3rem 0 10rem 3rem ;
   }
-  .pattern1{
-    /* margin-left: 3rem; */
-    margin-top: -10rem;
+  .pattern_img{
+    margin-top: -11rem;
+    margin-left:0;
   }
  
   .dark_row {
@@ -366,6 +368,10 @@ margin-right: 4rem;
     position: absolute;
     right: 20px;
   }
+  .social_icons{
+    margin-right:2rem ;
+  }
+  
 }
 @media only screen and (min-width: 1021px){
   .container{
