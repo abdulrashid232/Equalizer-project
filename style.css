@@ -48,7 +48,7 @@ body{
 }
 .text h1{
   font-weight: 900;
-  font-size: 60px;
+  font-size: 45px;
   letter-spacing: 1;
   /* width: 800px; */
   position: relative;
@@ -58,11 +58,13 @@ body{
   font-size: 16px;
   position: relative;
 }
-/* .pattern_img{
+.pattern_img{
   height: 350px;
-  margin-top: rem;
-  margin-left: 0.3rem;
-} */
+  position: relative;
+  top: -5rem;
+  /* margin-top: -11rem;
+  margin-left: 0; */
+}
 
 /*======= middle Section(download section======= */
 
@@ -381,13 +383,8 @@ margin-right: 4rem;
   .dark_container{
     width: 100%;
   }
-  .pattern_img{
-    height: 350px;
-    position: relative;
-    top: -10rem;
-    /* margin-top: -11rem;
-    margin-left: 0; */
-  }
+  /* .pattern_img{
+  } */
   .dark_row {
     background: url('./assets/bg-pattern-2.svg');
     background-color: var(--very-dark-black);
