@@ -1,4 +1,5 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=IBM+Plex+Sans:wght@100;200;300;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
 :root {
   --soft-cyan: #66e2dc;
   --soft-red: #fa7453;
@@ -209,7 +210,7 @@ margin-right: 4rem;
   .container{
     background-image: url('./assets/bg-main-mobile.png');
     background-repeat: no-repeat;
-    /* background-size: cover ; */
+    background-size: cover ;
     background-position: center top;
     width: 100%;
   }
@@ -225,10 +226,9 @@ margin-right: 4rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding: 3rem 0 0 1rem; */
     padding: 0;
     margin: 0;
-    /* margin-left: 0.3rem; */
+    margin-top: 2rem;
     width: 300px;
   }
   .logo{
