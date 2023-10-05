@@ -48,13 +48,14 @@ body{
   font-weight: 800;
   font-size: 77px;
   letter-spacing: -1px;
-  /* width: 800px; */
+  width: 800px;
   position: relative;
   line-height: 100%;
 }
 .text p{
   font-weight: 400;
   font-size: 20px;
+  width:850px;
   /* position: relative; */
 }
 .pattern_img{
@@ -206,7 +207,7 @@ margin-right: 4rem;
   margin: 0.2rem;
 }
 .social_icon:hover{
-  background-color: var(--soft-cyan);
+  background-color: var(--light-orange);
 }
 
 
@@ -248,8 +249,10 @@ margin-right: 4rem;
   .text h1{
     font-weight: 800;
     font-size: 35px;
+    width:300px;
   }
   .text p{
+    width:300px;
     font-weight: 400;
     font-size: 20px;
     position: relative;
@@ -379,11 +382,13 @@ margin-right: 4rem;
   }
   .text h1{
     font-family: var(--font-family);
-  font-weight: 800;
-  font-size: 35px;
-  letter-spacing: -1px;
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: -1px;
+    width:400px;
   }
   .text p{
+    width: 400px;
     font-size: 20px;
   }
   .pattern_img{
