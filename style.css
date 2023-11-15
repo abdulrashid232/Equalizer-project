@@ -6,7 +6,7 @@
   --light-orange: #ffb964;
   --light-grayish-orange:#fcfaf9;
   --very-dark-black: #191826;
-  --font-family:'IBM Plex Sans, Roboto Condensed', sans-serif;  
+  --font-family:'IBM Plex Sans';  
 }
 *{
   font-family:var(--font-family);
